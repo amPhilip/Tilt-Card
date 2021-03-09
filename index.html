@@ -18,7 +18,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus blandit velit, a sollicitudin velit auctor non. Nulla quis lobortis dolor. Aliquam pretium neque sollicitudin, ornare enim ac, vestibulum orci.Vivamus pharetra, justo sodales vestibulum ultrices, eros purus commodo justo, nec sodales nunc eros et urna. Duis lacinia imperdiet diam, sed pretium enim varius et. 
                 </p>
-        </div>
+            </div>
         </div>
         <div class="img-container">
             <div class="imgbox">
@@ -34,12 +34,10 @@
     </div>
 <script type="text/javascript" src="vanilla-tilt.js"></script>
 <script type="text/javascript">
-	VanillaTilt.init(document.querySelector(".your-element"), {
+	VanillaTilt.init(document.querySelectorAll(".img-container"), {
 		max: 25,
 		speed: 400
 	});
-	
-	VanillaTilt.init(document.querySelectorAll(".imgbox"));
 </script>
 
 </body>
